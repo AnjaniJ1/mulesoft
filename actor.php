@@ -3,7 +3,7 @@
 $server="localhost";                    //server name
 $user="root";                           //user name
 $password="";                           //password is empty for sql
-$db="db_movies";                              //database name
+$db="db";                              //database name
 
 $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 ?>
@@ -11,8 +11,8 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 <html>
 <head>
 	<title>Employee details</title>
-	<link rel="stylesheet" href="dashboardGB.css" type="text/css"/>
-    <link rel="stylesheet" href="tablenew.css" type="text/css"/>
+	<link rel="stylesheet" href="dash.css" type="text/css"/>
+    <link rel="stylesheet" href="table.css" type="text/css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -69,7 +69,7 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
               {
                 echo '<script type="text/javascript">';
                 echo 'alert("No records found");';
-                echo 'window.location.href="display.php";';
+                echo 'window.location.href="main.php";';
                 echo "</script>";  
               }
             }
