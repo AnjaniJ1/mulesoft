@@ -74,7 +74,7 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
         <!-- </div> -->
     </div>
     <div class="container">
-     <form action="actor_disp.php" method="POST">
+     <form action="actor.php" method="POST">
        <div class="title" style="color:white;"><h1>Enter a actor name to fetch his movies</h1></div>
         <input type="text" name="actor_name" placeholder="Enter a actor name" required>
         <input type="submit" value="GO" />
