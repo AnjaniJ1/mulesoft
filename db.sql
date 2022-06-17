@@ -40,11 +40,11 @@ CREATE TABLE `movie` (
 --
 
 INSERT INTO `movie` (`name`, `actor`, `actress`, `director`, `year`) VALUES
-('charlie', 'rakshit', 'charlie', 'adarsh', 2001),
-('charlie', 'rakshit', 'charlie', 'adarsh', 2001),
-('kgf 2', 'yash', 'nidhi', 'neel', 2022),
+('athiran', 'fawaz', 'saipallavi', 'adarsh', 2019),
+('charlie', 'rakshit', 'charlie', 'adarsh', 2019),
+('student of the yaer', 'siddharth', 'alia', 'neel', 2009),
 ('kgf 1', 'yash', 'shreenidhi', 'prashanth', 2018),
-('beast', 'vijay', 'pooja', 'nelson', 2021);
+('kirik party', 'rakshith shetty', 'rashmika', 'rakshith', 2010);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
